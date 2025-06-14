@@ -1,0 +1,20 @@
+.contenedor{
+    display: grid;
+    background-color:black;
+    grid-template-areas: 
+    "footer footer" 
+    "cabeza cabeza"
+    "menu menu"
+    ;
+}
+.cabeza{
+    grid-area: cabeza;
+}
+.pie{
+    grid-area: footer;
+}
+.menu{
+    grid-area:menu;
+}
+
+
