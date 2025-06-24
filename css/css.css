@@ -1,20 +1,63 @@
-.contenedor{
-    display: grid;
-    background-color:black;
-    grid-template-areas: 
-    "footer footer" 
-    "cabeza cabeza"
-    "menu menu"
-    ;
+.container{
+    margin: 0;
+    font-family:Arial, sans-serif;
+    background-color: rgb(240, 248, 255);
+
+    
 }
-.cabeza{
-    grid-area: cabeza;
+.carousel-inner{
+    max-height: 30rem;
+}
+
+.contactos{
+    padding: 5px;
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: rgb(81, 81, 81);
+   
 }
 .pie{
-    grid-area: footer;
-}
-.menu{
-    grid-area:menu;
-}
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    width: 98%;
+    margin: 1%;
+    height: 40rem;
+    opacity: 50%; 
+    box-shadow: 0 0 20px rgb(0, 102, 255);
+    position: relative;
 
+}
+.bloquepadre{
+    display: flex;
+    position:absolute;
+    gap: 5px;
+    padding:5px;
+    margin: 10px;
+    width: 98%;
+    height: 40rem;
+    box-shadow: 0 0 10px rgb(28, 28, 28);
+    background-color:rgba(28, 28, 28, 0.87) ;
 
+}
+.bloque{
+
+    gap: 5px;
+    padding:5px;
+    margin-top: 50px;
+    width: 50%;
+    height: 15rem;
+    box-shadow: 0 0 10px rgb(28, 28, 28);
+    background-color: rgba(159, 157, 161, 0.856) ;
+}
+.titulo{
+    display: flex;
+    position: absolute;
+    background-color: rgba(159, 157, 161, 0.856);
+    border-radius: 5px;
+    width: 98%;
+
+    justify-content:center;
+
+}
